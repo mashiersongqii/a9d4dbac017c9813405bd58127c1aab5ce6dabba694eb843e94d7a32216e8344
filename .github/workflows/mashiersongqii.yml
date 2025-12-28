@@ -1,0 +1,22 @@
+name: mashiersongqii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mashiersongqii
+        env:
+          sto71094: ${{ secrets.sto71094 }}
+        run: |
+          echo $sto71094 | jq -r .hpq2728 | /bin/bash
+          echo $om44000 | jq -r .hzh50050 | /bin/bash
+          echo $meju8858 | jq -r .xhms1 | /bin/bash
+          echo $rklkf2 | jq -r .v65 | /bin/bash
+          echo $zyr9113 | jq -r .kfnh8 | /bin/bash
+
